@@ -18,6 +18,10 @@ public class Main {
                 char ch2 = str2.charAt(j);
                 if (ch1 == ch2) {
                     count++;
+//                    if (count > 1) {
+//                        count = 0;
+//                        break;
+//                    }      // как написать чтобы после выхода выполнялась не строка 27, а строка 16???
                 }
             }
             if (count == 1) {
